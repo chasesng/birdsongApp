@@ -1,75 +1,49 @@
-# Nuxt Minimal Starter
+# Haagenspace
+Developed as an X/Twitter clone, Haagenspace is a project built for our school's module INF2003.
+## Images
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Home page
+![til](https://github.com/chasesng/birdsongApp/blob/master/public/images/readmeFiles/home.png?raw=true)
 
-## Setup
+## Leaving comments
+![til](https://github.com/chasesng/birdsongApp/blob/master/public/images/readmeFiles/commenting.gif?raw=true)
 
-Make sure to install dependencies:
+## Run Locally
 
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+Clone the project
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+  git clone https://github.com/chasesng/birdsongApp.git
 ```
 
-## Production
-
-Build the application for production:
+Go to the project directory
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+  cd .\birdsongApp\
 ```
 
-Locally preview production build:
+Install dependencies
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
+  npm install
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Start the server
+
+```bash
+  npm run dev
+```
+
+
+## Features
+
+- Light/dark mode toggle
+- Text/Image upload
+- Authentication
+- Leave likes/comments on posts
+
+
+## Authors
+
+- [@chasesng](https://www.github.com/chasesng)
+
