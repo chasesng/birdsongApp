@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+AU+SA&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+    --color-main: #457b9d;
+    --bg-main: #36213E;
+}
+
+:root {
+    --ui-secondary: #457b9d;
+    --bg-main: #a3856a;
+}
+
+.dark {
+    --ui-secondary: #a8dadc;
+    --ui-bg: #010409;
+    --color-main: #C49A6C;
+    --bg-main: #a3856a
+}
+
+.playwrite-au-sa {
+    font-family: "Playwrite AU SA", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.c-regular {
+    font-family: "Chirp Regular Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-style:normal;
+    font-display:swap;
+}
+
+@font-face {
+    font-family: "Playwrite AU SA";
+    /*src: url('a/fonts/PlaywriteAUSA-VariableFont_wght.ttf');*/
+    src: url('../fonts/PlaywriteAUSA-VariableFont_wght.ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "ClashGrotesk-Regular";
+    src: url('../fonts/ClashGrotesk-Variable.ttf');
+}
+
+.clash-grotesk {
+    font-family: "ClashGrotesk-Regular";
+}
+@font-face {
+    font-family: "Chirp Regular Web";
+    src: url('../fonts/chirp-regular-web.ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+button {
+    font-family: "ClashGrotesk-Regular";
+    @apply px-6 py-2 transition-all
+}
+
+button:active {
+    @apply scale-95 duration-100
+}
